@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="pyCMeKG",
+    name="PyCMeKG",
     version="0.1.2",
     author="Yunfei Yang",
     author_email="yfy@pku.edu.cn",
