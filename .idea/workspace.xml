@@ -24,8 +24,8 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyCMeKG/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+            <state relative-caret-position="585">
+              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -554,8 +554,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pyCMeKG/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        <state relative-caret-position="585">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
