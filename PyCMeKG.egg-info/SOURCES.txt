@@ -9,3 +9,4 @@ pyCMeKG.egg-info/PKG-INFO
 pyCMeKG.egg-info/SOURCES.txt
 pyCMeKG.egg-info/dependency_links.txt
 pyCMeKG.egg-info/top_level.txt
+pyCMeKG/model/__init__.py

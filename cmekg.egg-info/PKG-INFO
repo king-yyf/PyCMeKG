@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: cmekg
+Version: 0.1.2
+Summary: Chinese Medical Knowledge Graph
+Home-page: https://github.com/king-yyf/PyCMeKG
+Author: Yunfei Yang
+Author-email: yfy@pku.edu.cn
+License: MIT
+Description: Chinese Medical Knowledge Graph
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
