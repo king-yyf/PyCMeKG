@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="PyCMeKG",
+    name="cmekg",
     version="0.1.1",
     author="Yunfei Yang",
     author_email="yfy@pku.edu.cn",
     description="Chinese Medical Knowledge Graph",
     long_description="Chinese Medical Knowledge Graph",
     license="MIT",
-    url="cmekg.pcl.ac.cn",
+    url="https://github.com/king-yyf/PyCMeKG",
     packages=find_packages(),
 
     classifiers = [
