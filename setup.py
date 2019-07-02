@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="cmekg",
-    version="0.1.1",
+    version="0.1.2",
     author="Yunfei Yang",
     author_email="yfy@pku.edu.cn",
     description="Chinese Medical Knowledge Graph",
