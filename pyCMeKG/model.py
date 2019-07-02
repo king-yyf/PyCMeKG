@@ -2,7 +2,8 @@ import _pickle as pkl
 
 class CMeKG(object):
 
-    def __init__(self, db_file):
+    def __init__(self, file_name):
+        db_file = open(file_name, 'rb')
         self.db_dic = pkl.load(db_file)
 
     def query_by_subject(self, subject_name = None):
