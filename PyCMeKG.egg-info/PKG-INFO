@@ -2,7 +2,7 @@ Metadata-Version: 1.1
 Name: PyCMeKG
 Version: 0.1.1
 Summary: Chinese Medical Knowledge Graph
-Home-page: cmekg.pcl.ac.cn
+Home-page: https://github.com/king-yyf/PyCMeKG
 Author: Yunfei Yang
 Author-email: yfy@pku.edu.cn
 License: MIT
