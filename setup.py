@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="PyCMeKG",
-    version="0.1.4",
+    version="0.1.5",
     author="Yunfei Yang",
     author_email="yfy@pku.edu.cn",
     description="Chinese Medical Knowledge Graph",
@@ -10,7 +10,6 @@ setup(
     license="MIT",
     url="https://github.com/king-yyf/PyCMeKG",
     packages=find_packages(),
-    package_data={"": ["*.txt*", "*.pkl", "*.npz"]},
 
     classifiers = [
         "License :: OSI Approved :: MIT License",
