@@ -1,0 +1,7 @@
+setup.py
+PyCMeKG.egg-info/PKG-INFO
+PyCMeKG.egg-info/SOURCES.txt
+PyCMeKG.egg-info/dependency_links.txt
+PyCMeKG.egg-info/top_level.txt
+pyCMeKG/__init__.py
+pyCMeKG/model.py
