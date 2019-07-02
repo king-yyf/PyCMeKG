@@ -8,7 +8,8 @@ class cmekg(object):
 
     def subject(self, subject_name = None):
         """query by subject"""
-        return self.query_by_subject(subject_name)
+        # return self.query_by_subject(subject_name)
+        return self.db_dic[subject_name]
 
     def subject_predicate(self, subject_name = None, predicate_name = None):
         """query by subject, predicate"""
