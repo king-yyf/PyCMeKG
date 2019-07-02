@@ -10,6 +10,7 @@ setup(
     license="MIT",
     url="https://github.com/king-yyf/PyCMeKG",
     packages=find_packages(),
+    package_data={"": ["*.txt*", "*.pkl", "*.npz"]},
 
     classifiers = [
         "License :: OSI Approved :: MIT License",

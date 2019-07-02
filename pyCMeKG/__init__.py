@@ -2,7 +2,7 @@ import _pickle as pkl
 from pyCMeKG.model import CMeKG
 
 class cmekg(object):
-    def __init__(self, db_file = "mekg.db"):
+    def __init__(self, db_file = "cmekg_1.0"):
         self.model = CMeKG(db_file)
 
     def subject(self, subject = None):
