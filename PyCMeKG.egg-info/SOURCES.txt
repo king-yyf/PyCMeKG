@@ -1,9 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
 setup.py
 PyCMeKG.egg-info/PKG-INFO
 PyCMeKG.egg-info/SOURCES.txt
 PyCMeKG.egg-info/dependency_links.txt
 PyCMeKG.egg-info/top_level.txt
 pyCMeKG/__init__.py
+pyCMeKG/cmekg_1.0
 pyCMeKG/model.py
 pyCMeKG.egg-info/PKG-INFO
 pyCMeKG.egg-info/SOURCES.txt

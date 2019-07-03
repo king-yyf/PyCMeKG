@@ -2,7 +2,7 @@ import _pickle as pkl
 from pyCMeKG.model import CMeKG
 
 class cmekg(object):
-    def __init__(self, db_file = "cmekg_1.0"):
+    def __init__(self, db_file = "cmekg.pkl"):
         with open(db_file, "rb") as f:
             self.db_dic = pkl.load(f)
 
@@ -18,9 +18,12 @@ class cmekg(object):
     def query_by_subject(self, subject_name = None):
         """A list of (subject, predicate, object) tuples for the given subject"""
 
+        with open("cmekg.pkl", "rb") as f:
+            kg_dic = pkl.load(f)
+
         dic = {}
         if subject_name in self.db_dic.keys():
-            dic = self.db_dic[subject_name]
+            dic = kg_dic[subject_name]
 
         triples = []
 

@@ -2,7 +2,7 @@ import _pickle as pkl
 
 class CMeKG(object):
 
-    def __init__(self, file_name = "cmekg_1.0"):
+    def __init__(self, file_name = "cmekg.pkl"):
         with open(file_name, "rb") as f:
             self.db_dic = pkl.load(f)
 
@@ -37,6 +37,14 @@ class CMeKG(object):
                 triples.append(triple)
 
         return triples
+
+
+if __name__ == "__main__":
+    print("ok")
+    kg = CMeKG()
+    ls = kg.query_by_subject("支气管肺癌")
+    print(ls)
+    print("end")
 
 
 
